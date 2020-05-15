@@ -62,7 +62,7 @@ $name2 = $_GET['name'];
     </div>
 <script>
     function ok(){
-        location.replace("http://localhost/user/voucher.php?name=<?php echo $name1;?>");
+        location.replace("http://localhost/WEB_PROJECT(WE)/user/voucher.php?name=<?php echo $name1;?>");
     }
 </script>
 </body>

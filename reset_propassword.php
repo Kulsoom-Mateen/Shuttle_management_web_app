@@ -14,9 +14,9 @@ if (!$conn) {
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if(isset($_POST['submit'])){
-        // $email = $_POST["email"];
-        // $resetpassword = $_POST["reset_password"];
-        // $confirmpassword=$_POST["confirm_password"];
+        $email = $_POST["email"];
+        $resetpassword = $_POST["reset_password"];
+        $confirmpassword=$_POST["confirm_password"];
 
         if(empty($_POST["email"]) || empty($_POST["reset_password"]) || empty($_POST["confirm_password"])){
             $invalid = '*Please fill all the required fields';
@@ -28,6 +28,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $invalid="Password should be same in both the fields";
             }
             else{
+                // $confirmpassword=$_POST["confirm_password"];
+                // $email = $_POST["email"];
                 $sql1="update passenger set p_password = '$confirmpassword' where p_email='$email' ";
                 $sql2="update driver set d_password = '$confirmpassword' where email='$email' ";
                 $sql3="update conductor set c_password = '$confirmpassword' where email='$email' ";

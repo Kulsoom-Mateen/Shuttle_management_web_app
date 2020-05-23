@@ -7,7 +7,7 @@ $dbname = "shuttle_management";
 $invalid="";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
-$name1 = $_GET['name'];
+
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }

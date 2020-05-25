@@ -45,7 +45,7 @@
     </div>
 <script>
     function ok(){
-        location.replace("http://localhost/user/login1.php");
+        location.replace("login1.php");
     }
 </script>
 </body>

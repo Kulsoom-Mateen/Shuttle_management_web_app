@@ -170,7 +170,7 @@ else{
     <div class="topnav">
         <img src="logo.png"
             style="height:90px;width:90px;float:left;margin-top:5px;margin-left:5px;">
-        <p class="para"><b>NED University Shuttle service</b></p>
+        <p class="para"><b>Shuttle service Web App</b></p>
     </div>
     <nav class="navbar">
         <span class="open-slide">

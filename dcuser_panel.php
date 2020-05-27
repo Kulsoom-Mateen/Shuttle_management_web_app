@@ -33,7 +33,7 @@ $_SESSION['name']=$name1;
     <div class="topnav">
         <img src="logo.png"
             style="height:90px;width:90px;float:left;margin-top:5px;margin-left:5px;">
-        <p class="para"><b>NED University Shuttle service</b></p>
+        <p class="para"><b>Shuttle service Web App</b></p>
     </div>
     <nav class="navbar">
         <span class="open-slide">
@@ -51,7 +51,7 @@ $_SESSION['name']=$name1;
     <div id="side-menu" class="side-nav" style="margin-top:110px;margin-left:8px;">
         <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
         <a href="dcuser_profile.php?name=<?php echo $name1?>">Profile</a>
-        <a href="reset_propassword.php">Reset password</a>
+        <a href="reset_dcpassword.php">Reset password</a>
         <a href="login1.php">Logout</a>
     </div>
 

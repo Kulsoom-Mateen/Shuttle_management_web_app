@@ -91,7 +91,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div> -->
 
     <div class="flex-container">
-        <input type="button" class="button" value="Back" style="margin-left:1200px;height:55px;width:100px;font-size:20px;" onclick="userbackbutton()">
+        <!-- <input type="button" class="button" value="Back" style="margin-left:1200px;height:55px;width:100px;font-size:20px;" onclick="openSlideMenu()"> -->
+        <a style="margin-left:1200px;height:55px;width:100px;font-size:20px;" href="#" onclick="userbackbutton()">Back</a>
         <div class="form-area">
             <form class="box" method="POST" action="">
                 <br>
@@ -114,7 +115,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         function userbackbutton(){
-            location.replace("http://localhost/WEB_PROJECT(WE)/user/user_panel.php?name=<?php echo $name1;?>")
+            location.replace("user_panel.php?name=<?php echo $name1;?>")
         }
 
         function openSlideMenu() {

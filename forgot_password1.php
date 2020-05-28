@@ -52,7 +52,7 @@ if(isset($_GET['email'])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NED University Shuttle Service</title>
+    <title>Shuttle Service Web App</title>
     <link rel="stylesheet" href="style_forgot_password1.css">
     
     <style>
@@ -93,7 +93,7 @@ if(isset($_GET['email'])){
     <header>
         
         <img src="logo.png" style="float:left;height:90px;padding:5px 5px;" alt="">
-        <p class="header-nav">NED University Shuttle Service</p>
+        <p class="header-nav">Shuttle Service Web App</p>
     </header>
     <main>
         <img src="bus_legs.png" alt="bus_legs" style="height:545px;width:100%;float:left;">

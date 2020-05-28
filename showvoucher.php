@@ -157,7 +157,7 @@ function test_input($data) {
     <div class="topnav">
         <img src="logo.png"
             style="height:90px;width:90px;float:left;margin-top:5px;margin-left:5px;">
-        <p class="para"><b>NED University Shuttle service</b></p>
+        <p class="para"><b>Shuttle service Web App</b></p>
     </div>
     <nav class="navbar">
         <span class="open-slide">
@@ -220,7 +220,7 @@ function test_input($data) {
         }
         
         function userbackbutton(){
-            location.replace("http://localhost/user/user_panel.php?name=<?php echo $name1;?>")
+            location.replace("http://localhost/WEB_PROJECT(WE)/user/user_panel.php?name=<?php echo $name1;?>")
         }
     </script>
 </body>

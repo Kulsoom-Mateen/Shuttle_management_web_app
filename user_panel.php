@@ -12,7 +12,8 @@ if (!$conn) {
 $name1 = $name2 = "";
 $name1 = $_GET['name'];
 $name2 = $_GET['name'];
-
+session_start() ;
+$_SESSION['name']=$name1;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +30,7 @@ $name2 = $_GET['name'];
     <div class="topnav">
         <img src="logo.png"
             style="height:90px;width:90px;float:left;margin-top:5px;margin-left:5px;">
-        <p class="para"><b>NED University Shuttle Service</b></p>
+        <p class="para"><b>Shuttle Service Web App</b></p>
     </div>
     <nav class="navbar">
         <span class="open-slide">
@@ -46,8 +47,8 @@ $name2 = $_GET['name'];
 
         <div id="side-menu" class="side-nav" style="margin-top:110px;margin-left:8px;">
             <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-            <a href="user_profile.php?name=<?php echo $name1;?>" onclick="profile()">Profile</a>
-            <a href="reset_propassword.php" onclick="reset_password()">Reset password</a>
+            <a href="user_profile.php?name=<?php echo $name1;?>">Profile</a>
+            <a href="reset_propassword.php?name=<?php echo $name1;?>">Reset password</a>
             <a href="login1.php" onclick="logout()">Logout</a>
         </div>
 
